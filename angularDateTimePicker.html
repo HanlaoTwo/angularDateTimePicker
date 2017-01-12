@@ -14,7 +14,7 @@
 
 </head>
 
-<body>
+<body ng-app="myReverseFilterApp">
 
 <div ng-controller="DController">
 
@@ -93,7 +93,7 @@
         return {
             restrict: 'E',
             transclude: true,
-            template: '<input type="text" id="datetimepicker" class="form-control input-sm res-input-sm" style="width: inherit;height: inherit" ng-model="datetime">,
+            template: '<input type="text" id="datetimepicker" class="form-control input-sm res-input-sm" style="width: inherit;height: inherit" ng-model="datetime">',
             link: link,
             scope: {
                 datetime: '=ngModel'
