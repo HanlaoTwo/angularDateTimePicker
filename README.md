@@ -10,20 +10,21 @@
 2.dom中使用
 
 
-<dateandtime ng-model="times"
+\<dateandtime ng-model="times"
                  format="dat"
                  language="Ch"
                  todaybtn
                  autoclose
                  ....
                  style="width: 200px">
- </dateandtime>
+ \</dateandtime>
  
  
  
 属性配置
+
 /**
-     * 默认值
+     * 默认值<br>
      * format：date显示日期，不填或者其他显示日期和时间。属性必须有
      * language:Ch(中文)
      * weekStart:7（周日）
