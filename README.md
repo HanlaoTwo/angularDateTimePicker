@@ -1,9 +1,15 @@
 # angularDateTimePicker.html
 使用angualr的directive实现bootstrap插件datetimepicker
+
 使用方法：
+
 1.引入指令
+
  app.directive('dateandtime', ['dateFilter', function (dateFilter) {.....
+ 
 2.dom中使用
+
+
 <dateandtime ng-model="times"
                  format="dat"
                  language="Ch"
@@ -13,7 +19,7 @@
                  style="width: 200px">
  </dateandtime>
  
- 竖向配置
+属性配置
 /**
      * 默认值
      * format：date显示日期，不填或者其他显示日期和时间。属性必须有
